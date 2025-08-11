@@ -23,8 +23,7 @@ export const metadata = { title: 'Über uns' };
 
 export default function AboutPage() {
   const hero = GALLERY?.[1] ?? GALLERY?.[0];
-  const side = GALLERY?.[2] ?? hero;
-  
+
   // Daten für den neuen "Philosophie"-Abschnitt
   const philosophy = [
     {
@@ -73,7 +72,7 @@ export default function AboutPage() {
                 Anfahrt & Kontakt
               </Link>
               <Link
-                href={SITE?.bookingUrl ?? '/appointment'}
+                href={'/appointment'}
                 className="w-[80vw] group inline-flex items-center justify-center rounded-full px-6 py-3 text-base font-semibold transition-all bg-gradient-to-r from-yellow-400 to-amber-500 text-black hover:shadow-lg hover:shadow-yellow-500/20 hover:scale-105"
               >
                 Termin buchen
