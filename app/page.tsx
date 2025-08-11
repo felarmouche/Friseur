@@ -221,7 +221,7 @@ function BackgroundOrnaments() {
 function Hero() {
   return (
     <section
-      className="relative overflow-hidden h-[100svh] supports-[height:100dvh]:h-[100dvh] md:h-auto
+      className="relative overflow-hidden py-12 md:py-0 h-[100svh] supports-[height:100dvh]:h-[100dvh] md:h-auto
              bg-cover bg-center bg-no-repeat
              bg-[image:linear-gradient(to_bottom,rgba(0,0,0,.75),rgba(0,0,0,.75)),var(--hero)]
              md:bg-black md:bg-none"
